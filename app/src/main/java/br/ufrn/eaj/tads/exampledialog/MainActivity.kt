@@ -1,8 +1,8 @@
 package br.ufrn.eaj.tads.exampledialog
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var dialogmulti = MultiListDialogFragment()
+        val dialogmulti = MultiListDialogFragment()
 
         button1.setOnClickListener {
             val dialog = SendMessageDialogFragment()
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         button3.setOnClickListener {
-            var dialog = ListaDialogFragment()
+            val dialog = ListaDialogFragment()
             dialog.show(supportFragmentManager, "Dialog3")
         }
 
@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         button5.setOnClickListener {
-            var dialog = LoginDialogFragment()
+            val dialog = LoginDialogFragment()
             dialog.show(supportFragmentManager, "Dialog5")
         }
 
