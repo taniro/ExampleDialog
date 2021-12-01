@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="cores">
-        <item>Vermelho</item>
+        <item>Carmesin</item>
         <item>Laranja</item>
         <item>Azul</item>
+        <item>Laranja</item>
     </string-array>
     <string-array name="frutas">
         <item>Maça</item>
